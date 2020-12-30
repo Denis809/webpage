@@ -1,0 +1,145 @@
+*{
+	padding: 0;
+	margin: 0;
+	font-family: Arial;
+}
+
+.back{
+	background-image: url("../img/back.jpg");
+	height: 1000px;
+	background-repeat: no-repeat;
+}
+
+.header{
+	height: 70px;
+	background: rgba(0,0,0,0.8);
+	color: white; 
+}
+
+.header p{
+	float: left;
+	font-size: 32px;
+	padding: 15px;
+}
+
+.header span {
+	color: gold;
+}
+
+.menu{
+	float: right;
+	padding-top: 22px;
+	display: flex;
+	flex-direction: row;
+}
+
+.menu a{
+	color: white;
+	text-decoration: none;
+	padding-left: 10px;
+	padding-right: 10px;
+	font-size: 22px;
+}
+
+.menu a:hover{
+	color: green;
+	transition: 1s;
+}
+
+.menu a:last-child{
+	border-left: 1px solid grey;
+	color: darkred;
+}
+
+.main{
+	display: flex;
+}
+
+.main_left{
+	width: 50%;
+	border: 1px;
+	height: 900px;
+	display: flex;
+	align-items: center;
+}
+
+.main_right{
+	width: 50%;
+}
+
+.content_l{
+	width: 80%;
+	margin: 0 auto;
+}
+
+.content_l *{
+	padding: 10px;
+}
+
+.content_l h1{
+	font-size: 40px;
+}
+
+.content_l p{
+	font-size: 22px;
+}
+
+.content_l h3{
+	font-size: 28px;
+}
+
+.content_r{
+	margin: 30% auto;
+	width: 55%;
+	height: 500px;
+	background-color: white;
+}
+.text{
+	font-size: 25px;
+	padding: 20px;
+}
+.content_r p{
+	padding-left: 20px;
+}
+.content_r span{
+	font-weight: bold;
+}
+.inputs input{
+	float: left;
+	width: 300px;
+	height: 30px;
+	margin-top: 14px;
+	margin-left: 20px;
+
+	
+}
+.inp input{
+	width: 300px;
+	height: 70px;
+}
+
+:focus::-webkit-input-placeholder {color: transparent}
+
+.button button{
+	width: 300px;
+	height: 35px;
+	margin-left: 20px;
+	margin-top: 14px;
+	background-color: #141313;
+	border: 0;
+	border-radius: 3px;
+	color: white;
+
+}
+
+
+/*MediaQ*/
+/*
+	@media screen and (max-width: 700px) {
+    .header {   
+    	display: flex;
+        flex-direction: column;
+    }
+}
+*/
+/*End MediaQ*/
